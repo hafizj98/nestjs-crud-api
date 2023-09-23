@@ -12,7 +12,7 @@ import { ItemsModule } from './items/items.module';
       password: 'test',
       database: 'test-app-ms',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      synchronize: true,  // set to false in production
+      synchronize: true, // set to false in production
     }),
     ItemsModule,
   ],
